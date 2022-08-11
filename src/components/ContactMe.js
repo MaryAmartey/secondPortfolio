@@ -18,13 +18,8 @@ export default function ContactMe(){
     return(
         <div>
             <Navbar color="grey" />
-        <div className="container border" 
-             style={{marginTop:"50px",
-             width: "50%",
-             backgroundImage:`url('${contactImg}')`,
-             backgroundPosition: 'center',
-             backgroundSize:'cover'
-             }} >
+        <div className="container4 border" 
+             style={{backgroundImage:`url('${contactImg}')`}} >
 
             <h1  style={{marginTop:"25px", textAlign:"center"}} >
                 Contact Form
@@ -42,7 +37,7 @@ export default function ContactMe(){
                 <label>Message</label>
                 <textarea name ='message' rows='8' className="form-control"/>
 
-                <input type= "submit" value="Send" className="form-control btn btn-primary" style={{marginTop:"25px", textAlign:"center"}} />
+                <input type= "submit" value="Send" className=" btn btn-primary" style={{marginTop:"25px", textAlign:"center"}} />
             </form>
         </div>
         </div>

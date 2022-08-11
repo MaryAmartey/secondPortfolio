@@ -1,4 +1,5 @@
 /*master styles*/
+html { font-size: 16px; }
 
 * {
     box-sizing: border-box;
@@ -40,6 +41,7 @@ header {
     font-style:italic;
     font-family: 'Satisfy', cursive;
     color:white;
+    margin-top: 0.5em;
 }
 
 .nav-link-wrapper {
@@ -218,6 +220,7 @@ header {
 
 .aboutMe{
     background-image: rgba(228,192,141,255);
+    padding-left: 1rem;
 }
 
 .about{
@@ -238,17 +241,12 @@ hr {
     margin-bottom: 2em;
 }
 
-.about_me {
-    display: flex;
-    padding-left: 30px;
-    padding-right: 30px;
- }
+
 
  .about_me h1{
-    font-size: 5rem;
-    padding-bottom: 2rem;
-    padding-left: 3rem;
-    padding-top:2rem;
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
+    padding-top:1rem;
     font-family: 'Satisfy', cursive;
     text-decoration:rgba(232,202,150,255) underline;
 }
@@ -262,9 +260,13 @@ hr {
     flex-basis: 100%;
 }
 
+.about_me {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+ }
+
 .about_me p{
-    font-size: 1.2em;
-    padding-left: 1rem;
     line-height: 125%;
 }
 
@@ -332,12 +334,58 @@ hr {
     justify-content: space-between;
 }
 
-
-@media screen and (max-width:700px){
-    .about_me {
-        margin: 2rem;
-        display: flex;
-        flex-wrap: wrap-reverse;
-     }
-
+.container > *{
+    width: 100%;
 }
+
+.container{
+    display: flex;
+  flex-direction: column-reverse;
+}
+
+.container> div:first-child{
+    margin-top: 1em;
+    margin-right: 5em;
+}
+
+.container4{
+    background-position: center;
+    background-size:cover;
+    margin: 5%;
+    margin-top: 10%;
+    width: "90%";
+}
+
+
+
+@media (min-width: 0px) {
+    p { font-size: 1rem; }
+    .textFormat{
+        margin-top: 20px;
+        font-size: 1rem;
+        width:95%;
+    }
+  }
+  
+  @media (min-width: 400px) {
+    p { font-size: calc(1rem + 1vw); }
+    
+  }
+  
+  @media (min-width: 1001px){
+    p { font-size: 1.2rem; }
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+    .container4{
+        background-position: center;
+        background-size:cover;
+        margin: 20%;
+        margin-top: 5%;
+        width: "60%";
+    }
+  }
+  
+  
+  

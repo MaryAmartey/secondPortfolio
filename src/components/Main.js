@@ -11,12 +11,14 @@ export default function Main(){
             <section className="aboutMe">
                 <h2 className="about">About me</h2>
                 
-                <div class="about_me">
-                    <div id="container">
-                        <h1>Who I am Now </h1>
-                        <p>My name is Mary Amartey, an international student from Ghana, West Africa pursuing a major in computer science. I joined Oberlin College with the intention of exploring different learning fields. I took several classes including Psychology, Math, Philosophy, and Environmental studies. Although each class I took added to my way of thinking, I realized that I enjoyed problem-solving. I loved witnessing how a computer could solve a seemingly complex problem with just a few lines of code. I look forward to acquiring the necessary skills in specific fields of this study. With the skill set developed in Computer science, I can immerse myself in various fields, particularly providing contributions in addressing real-world problems.</p>
-                    </div> 
-                    <img class="pic" src={headshot} alt="potrait of me"/>
+                <div className="about_me">
+                    <div className="container" >
+                        <div>
+                            <h1>Who I am Now </h1>
+                            <p>My name is Mary Amartey, an international student from Ghana, West Africa pursuing a major in computer science. I joined Oberlin College with the intention of exploring different learning fields. I took several classes including Psychology, Math, Philosophy, and Environmental studies. Although each class I took added to my way of thinking, I realized that I enjoyed problem-solving. I loved witnessing how a computer could solve a seemingly complex problem with just a few lines of code. I look forward to acquiring the necessary skills in specific fields of this study. With the skill set developed in Computer science, I can immerse myself in various fields, particularly providing contributions in addressing real-world problems.</p>
+                        </div>
+                        <div><img class="pic" src={headshot} alt="potrait of me"/></div> 
+                    </div>
                 </div>
             </section>
         
