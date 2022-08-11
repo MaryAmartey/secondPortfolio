@@ -1,0 +1,343 @@
+/*master styles*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+ background: white;
+}
+
+header {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Navigation(nav) styles*/
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    padding-bottom: 2em;
+    box-shadow: 0 2px 4px black;
+}
+
+
+.left-side {
+    display: flex;
+}
+
+
+.nav-wrapper > .left-side > div {
+    margin-right: 0.8em;
+    font-size: 1.2rem;
+    text-transform:uppercase;
+    color:white;
+}
+.signature{
+    font-size: 1.2rem;
+    font-style:italic;
+    font-family: 'Satisfy', cursive;
+    color:white;
+}
+
+.nav-link-wrapper {
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color:white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+
+.nav-link-wrapper:hover {
+    text-decoration: none;
+    color:black;
+}
+
+.nav-link-wrapper a:hover {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color:white;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+/*other*/
+.container2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+  
+.imgEdit{
+    width:90%;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+   
+  
+
+.myheader{
+    padding-left: 30px;
+    width:100%;
+    height: 250px;
+    margin: 2px 40px 30px;
+    box-shadow: 20px 20px 100px 10px rgba(0,0,0,1);
+    border-top: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
+    border-radius: 15px;
+}
+
+.top{
+    background-size: cover; 
+    background-position: center;
+}
+
+
+.myheader h1 {
+    color: rgb(253, 244, 253);
+    font-size: 5rem ;
+    font-weight: 1rem;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+.myheader h2{
+    color:rgb(241, 234, 247);
+    padding: 10px;
+    font-size: 2.5rem ;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.myheader h1 span{
+    color:rgba(252,224,178,255);
+    font-weight: 1rem;
+    text-align: right;
+    font-size: 4rem ;
+    padding: 10px;
+    font-style: italic;
+    font-family: 'Satisfy', cursive;
+}
+
+
+
+.container3 {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 1.6rem;
+    padding-bottom: 3rem;
+}
+
+
+.item {
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  margin: 9px;
+  }
+
+
+
+.item a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    border-radius: 10px;
+   
+}
+.item .img-text1_2 {
+    text-decoration: none;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    color: burlywood;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.item .img-text3 {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    color: black;
+}
+.item .img-text3  a {
+    text-decoration: none;
+    color: rgba(253, 192, 106, 0.978);
+    font-size: 2rem;
+    border-radius: 10px;
+  
+}
+
+.arrowDecor{
+    color: white;
+    font-size: 2.5rem;
+
+}
+
+.img-text3 .arrowDecor{
+    color: white;
+    font-size: 2.5rem;
+    color: rgba(253, 192, 106, 0.978);
+    background-color: transparent;
+}
+
+
+.item .img-text1_2:hover{
+    transition: 2s ;
+    transform: scale(1.06);
+    font-size: 3em;
+    color:  rgb(252, 247, 247);
+}
+.item .img-text3:hover {
+    transition: 2s ;
+    transform: scale(1.06);
+    font-size: 3em;
+    color: rgb(252, 247, 247);
+}
+
+.aboutMe{
+    background-image: rgba(228,192,141,255);
+}
+
+.about{
+    display: flex;
+    font-size: 3.5rem;
+    justify-content: center;
+    font-family: 'Satisfy', cursive;
+}
+
+
+hr {
+    margin: 0 auto;
+    margin-left: center;
+    width: 70%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.75), rgba(252,224,178,255),  rgba(255, 255, 255, 0.75));
+    margin-bottom: 2em;
+}
+
+.about_me {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+ }
+
+ .about_me h1{
+    font-size: 5rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-top:2rem;
+    font-family: 'Satisfy', cursive;
+    text-decoration:rgba(232,202,150,255) underline;
+}
+ 
+.about_me img{
+    margin-bottom: 1.8rem;
+    width:80%;
+    clip-path: ellipse(48% 50% at 50% 50%);
+}
+.about_me > *{
+    flex-basis: 100%;
+}
+
+.about_me p{
+    font-size: 1.2em;
+    padding-left: 1rem;
+    line-height: 125%;
+}
+
+#list{
+    font-style: italic;
+    font-size: 4em;
+    margin-left: 2em;
+    color: rgba(228,192,141,255);
+}
+
+.box{
+    background-color: #fffffc;
+    background-image: linear-gradient(190deg, #fffffc 0%, #beb7a4 74%);
+}
+
+.myend{
+    display:flex;
+    justify-content: space-between;
+}
+.myend .signature{
+    width: 100%;
+    padding-top: 2.5rem;
+    padding-bottom: 5rem;
+}
+
+.myend .socials{
+    padding-top: 2.5rem;
+    width: 50%;
+}
+
+.myend p {
+    font-size: 2rem;
+    padding-left: 2.4rem;
+    padding-top: 1rem;
+}
+
+
+.myend a{
+    padding-top: 2.5rem;
+    text-decoration: navajowhite;
+    color: white;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.textFormat{
+    margin-top: 40px;
+    padding: 0px 50px 0px;
+    font-size: 1.1rem;
+    width:90%;
+}
+
+.list{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.list_section{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.spaceOut{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width:700px){
+    .about_me {
+        margin: 2rem;
+        display: flex;
+        flex-wrap: wrap-reverse;
+     }
+
+}
