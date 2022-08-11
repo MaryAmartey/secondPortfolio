@@ -24,7 +24,7 @@ export default function ContactMe(){
             <h1  style={{marginTop:"25px", textAlign:"center"}} >
                 Contact Form
             </h1>
-            <form className="row" style={{margin:"25px 85px 75px 100px"}} onSubmit={sendEmail} >
+            <form className="row" onSubmit={sendEmail} >
                 <label>Name</label>
                 <input type="text" name="name" className="form-control"/>
 
