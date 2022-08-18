@@ -7,10 +7,10 @@ export default function Navbar(props){
     <nav className="header" style={{backgroundColor: props.color}}>
             <div className="nav-wrapper">
                 <div className="nav-link-wrapper left-side">
-                    <Link to="/" style={{fontSize: 25}}> <i class="fa fa-home fa-fw" aria-hidden="true"></i>Home</Link>
+                    <Link to="/" style={{fontSize: 25}}> <i className="fa fa-home fa-fw" aria-hidden="true"></i></Link>
                 </div>
 
-                <p className="right-side signature">MARY AMARTEY <i class="fa fa-user" aria-hidden="true"></i></p>
+                <p className="right-side signature">MARY AMARTEY <i className="fa fa-user" aria-hidden="true"></i></p>
                 
             </div>
         </nav>

@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "./Navbar";
-import headerBackground from '../images/patrick-tomasso-1NTFSnV-KLs-unsplash\ \(1\).jpg';
+import Navbar from "../navbar/Navbar";
+import headerBackground from '../../images/patrick-tomasso-1NTFSnV-KLs-unsplash (1).jpg';
 
 
 export default function Header(){

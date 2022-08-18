@@ -1,0 +1,35 @@
+.curricular{
+    width: 40%;
+    margin-top: 10%;
+}
+
+.extra_container{ 
+    background-color: var(--color-primary-light);
+    text-align: center;
+    border-radius: 2rem;
+    user-select: none;
+    padding: 2rem;
+    display: flex;
+    justify-items: center;
+    margin: auto;
+}
+
+.swiper-button-prev {
+    color: white !important; 
+}
+
+.swiper-button-next {
+    color: white !important; 
+}
+
+@media screen and (max-width: 1024px) {
+    .curricular{
+        width: 60%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .curricular{
+        width: var(--container-width-sm);
+    }
+  }

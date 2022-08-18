@@ -1,19 +1,20 @@
 import React from "react";
-import Home from "./components/Home";
-import ResumePage from "./components/resumePage";
-import ContactMe from "./components/ContactMe";
+import Home from "./components/home/Home";
+import ResumePage from "./components/resumePage/ResumePage";
+import ContactMe from "./components/contactMe/ContactMe";
+//import backgroundImg from './images/brownImg.png';
+
 
 import {
     BrowserRouter as Router,
     Routes,
     Route,
-    Redirect,
   } from "react-router-dom";
-import ExtraCurricular from "./components/ExtraCurricular";
+import ExtraCurricular from "./components/extraCurricular/ExtraCurricular";
 
 export default function App(){
     return(
-        <div> 
+        <div > 
             <Routes>
                 <Route path = '/' element={< Home/>}/>
                 <Route path ='/resumePage' element ={<ResumePage/>} />

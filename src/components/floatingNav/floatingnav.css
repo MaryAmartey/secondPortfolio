@@ -1,0 +1,50 @@
+.navPrimary{
+    box-shadow: inset 0 0 2000px rgba(224, 223, 223, 0.5);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index:2;
+    position:fixed;
+    left:10%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap:0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+
+.navPrimary a{
+    background: transparent;
+    padding-left: 1rem;
+    color: var(--color-primary);
+    font-size: 1.2rem;
+}
+
+.navPrimary a.active{
+    background: rgb(253, 203, 136);
+    color: white;
+    border-radius: 2rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+
+@media (min-width: 0px) {
+    .navPrimary{
+        left:30%;
+    }
+    
+}
+
+@media (min-width: 400px) {
+    .navPrimary{
+        left:22%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .navPrimary{
+        left:10%;
+    }
+}
