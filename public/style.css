@@ -376,6 +376,7 @@ hr {
 
 .info p{
     color: rgb(255, 195, 105);
+    margin-left: 2em;
 }
 
 .info .name{
@@ -463,6 +464,12 @@ hr {
     }
     .imgBox{
         height: 230px;
+    }
+    .socials {
+        margin-left: 2.4em;
+    }
+    .info p{
+        margin-left: 1.1em;
     }
   }
   

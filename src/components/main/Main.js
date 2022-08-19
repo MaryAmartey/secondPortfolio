@@ -13,7 +13,7 @@ export default function Main(){
             <div className= "description"> 
                     <div className="info">
                         <h1 className="name">Mary Amartey</h1>
-                        <p style={{paddingLeft:"2em"}}> Computer Major <span style={{paddingLeft:"1em"}}>Full Stack Developer</span></p>
+                        <p> Computer Major <span style={{paddingLeft:"1em"}}>Full Stack Developer</span></p>
                     <div className= "socials">
                         <a href="https://www.facebook.com/mary.amartey.528" className="fa fa-facebook"></a>
                         <a href="https://www.linkedin.com/in/mary-amartey-0388a9185" className="fa fa-linkedin"></a>
