@@ -466,7 +466,7 @@ hr {
     }
   }
   
-  @media (min-width: 400px) {
+  @media (min-width: 500px) {
     p { font-size: calc(1.2rem); }
     .imgBox{
         height: 350px;
