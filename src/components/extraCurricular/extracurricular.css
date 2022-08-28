@@ -22,9 +22,76 @@
     color: white !important; 
 }
 
+.project_box{
+    box-shadow: inset 0 0 2000px rgba(224, 223, 223, 0.5);
+    backdrop-filter: blur(15px);
+}
+
+
+.box{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin-left: 5%;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    background: transparent;
+    box-shadow: inset 0 0 2000px rgba(224, 223, 223, 0.5);
+    backdrop-filter: blur(15px);
+}
+
+.card img{
+    width: 340px;
+    height: 330px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.cardInfo{
+    padding-top: 0.5rem;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+}
+.card a{
+    padding: 0.3em;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 0.8rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.card a:hover{
+    color: var(--color-primary);
+    border: 1.5px solid navajowhite;
+}
+
+.project_title{
+    font-size: 2rem;
+    display:flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+    padding-top: 0.2rem;
+}
+
 @media screen and (max-width: 1024px) {
     .curricular{
         width: 60%;
+    }
+  }
+
+
+  @media screen and (max-width: 900px) {
+    .card img{
+        width: 260px;
+        height: 270px;
     }
   }
 
@@ -32,4 +99,14 @@
     .curricular{
         width: var(--container-width-sm);
     }
+    .card img{
+        width: 160px;
+        height: 200px;
+    }
+    .cardInfo{
+        padding-top: 0.4rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+    }
   }
+

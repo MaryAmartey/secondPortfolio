@@ -1,15 +1,18 @@
-import React from "react";
-import Navbar from "../navbar/Navbar";
-import extracurricularsImg from '../../images/extracurImg.jpg';
-import FloatingNav from "../floatingNav/FloatingNav";
+import React from "react"
+import Navbar from "../navbar/Navbar"
+import extracurricularsImg from '../../images/extracurImg.jpg'
+import FloatingNav from "../floatingNav/FloatingNav"
 import "../extraCurricular/extracurricular.css"
-import { Pagination,Navigation } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination,Navigation } from 'swiper'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import firstProject from '../../images/firstProject1.png'
+import cardBackground from '../../images/jj-ying-7JX0-bfiuxQ-unsplash.jpg'
+import memeGene from '../../images/memeGeneProject.png'
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import "swiper/css/navigation";
+import 'swiper/css'
+import 'swiper/css/pagination'
+import "swiper/css/navigation"
 
 
 export default function ExtraCurricular(){
@@ -25,9 +28,42 @@ export default function ExtraCurricular(){
         }
     
     ]
+
+    const projects=[
+        {
+            img:firstProject,
+            overview:"TicTacTae Game",
+            link: "https://mksprojects.netlify.app/"
+        },
+        {
+            img:memeGene,
+            overview:"Meme Generator",
+            link:"https://mksprojects.netlify.app/memeGene"
+        },
+        
+    ]
     return(
         <div>
             <Navbar color="var(--color-primary-light)" />
+            <section className= "project_box" >
+            <p className="project_title">Recent Projects</p>
+            <div className= "box" >
+                {
+                projects.map(project=> {
+                    return (
+                    <div className = "card" >
+                        <img className="cardImg" src={project.img} />
+                        <div className="cardInfo">
+                            <p>{project.overview}</p>
+                            <a href={project.link} className="btn btn-primary">View</a>
+                        </div>
+
+                    </div>
+                    )})
+                }
+            </div>
+            </section>
+            <hr></hr>
 
             <img className="imgEdit" src={extracurricularsImg}/>
             <Swiper 
