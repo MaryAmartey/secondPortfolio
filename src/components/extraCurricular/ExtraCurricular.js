@@ -38,7 +38,7 @@ export default function ExtraCurricular(){
         {
             img:memeGene,
             overview:"Meme Generator",
-            link:"https://mksprojects.netlify.app/memeGene"
+            link:"https://mksprojects.netlify.app/"
         },
         
     ]
