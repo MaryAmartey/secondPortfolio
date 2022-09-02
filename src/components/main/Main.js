@@ -7,10 +7,14 @@ import { Link } from "react-router-dom";
 import CV from '../../assets/Amartey_Mary_2023.pdf';
 import FloatingNav from "../floatingNav/FloatingNav";
 
+
+
 export default function Main(){
+    
     return(
-        <div>
-            <div className= "description"> 
+    
+              <>
+              <div className= "description"> 
                     <div className="info">
                         <h1 className="name">Mary Amartey</h1>
                         <p> Computer Major <span style={{paddingLeft:"1em"}}>Full Stack Developer</span></p>
@@ -72,7 +76,7 @@ export default function Main(){
           
             </section>
             <FloatingNav/>
+              </>  
             
-        </div>
     )
 }
