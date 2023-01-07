@@ -19,7 +19,7 @@ export default function ResumePage(){
             <div className="list_section ">
                 <strong className="title">EDUCATION</strong> <br></br>
                     <div className="spaceOut">
-                        <span>Oberlin College, GPA: 3.65 </span>
+                        <span>Oberlin College </span>
                         <span> <strong>Oberlin, OH</strong></span>
                     </div>
                     
@@ -29,7 +29,9 @@ export default function ResumePage(){
                     </div>
                     
                    <strong>Relevant Coursework: </strong> <br></br>
-                    <span>Introduction to Computer Science, Data Structures, Systems Programming, Algorithms, Discrete Mathematics, Intro to Statistics, Theory of Computation, Introduction to Computer Architecture and Programming Abstractions.</span>
+                    <span> Introduction to Computer Science, Data Structures, Systems Programming, Algorithms, Discrete
+                            Mathematics, Introduction to Statistics, Theory of Computation, Introduction to Computer Architecture, Programming Abstractions,
+                            Machine Learning and Privacy and Social Networks. </span>
                     </div>
                     <br></br>
            
@@ -38,15 +40,17 @@ export default function ResumePage(){
                 <ul className="list">
                     
                         <span> <strong>Codyssia ,
-                        Full Stack Developer Intern
+                        Junior Full Stack Developer 
                             <br />
                         Remote Work,
-                        [06/2022- present] </strong></span>
+                        [06/2022- 12/2022] </strong></span>
                     
                 
                 
-                    <li>Developed web applications to enhance the flow of information for non-profit organizations using HTML and CSS for UI with Laravel framework for php and Livewire for backend architecture.</li>
-                    <li>Worked with a database management system, tableplus and mySQL to store, manage and access company data.    </li> 
+                    <li>Created web applications to improve the flow of information for non-profit organizations, using HTML and CSS
+                        for the user interface and the Laravel framework for PHP and Livewire for the backend architecture.</li>
+                    <li>Leveraged experience with Tableplus and MySQL to efficiently handle data management tasks.</li> 
+                    <li>Developed in-app chat applications using Vue.js and Firebase 's authentication and database services for realtime messaging and data storage.</li>
                 </ul> 
            
           
@@ -61,8 +65,8 @@ export default function ResumePage(){
                     07/2020 – 08/2020 </strong></span>
                 </div>
                      
-                        <li> Performed statistical analysis on series of research papers focused on retaining Computer Science students.</li>
-                        <li> Produced reports on effective practices to retain students in Introductory Computer Science classNamees. </li> 
+                        <li> Conducted statistical analysis on research papers examining the retention of Computer Science students.</li>
+                        <li> Generated reports on successful strategies for retaining students in Introductory Computer Science classes, which were utilized to shape the syllabus for the subsequent academic year. </li> 
                 </ul>
              
             <ul className="list">
@@ -122,8 +126,8 @@ export default function ResumePage(){
             <div className="list_section">
             <strong className="title"> SKILLS & INTERESTS </strong>
                 <ul className="list">
-                    <li> Computer: TablePlus, Microsoft Office (Excel, Word, PowerPoint & Outlook), Google Docs. </li>
-                    <li> Languages: Proficient in Java, Python, RStudio, CSS, HTML, C++, Git, SQL, laravel, PhP, React, Livewire, Javascript </li>
+                    <li> Computer: TablePlus, Microsoft Office (Excel, Word, PowerPoint & Outlook), Google Docs, Figma, Canva, Firebase. </li>
+                    <li> Languages: Proficient in Java, Python, Javascript, Git, MySQL, laravel, PhP, React, CSS, HTML, Vue, C++, RStudio </li>
                     <li> Campus and Community Involvements: Oberlin Student Co-operative Association, African Student Association. </li> 
                 </ul>
             </div>
